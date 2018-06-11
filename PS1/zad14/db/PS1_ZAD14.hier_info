@@ -1,0 +1,8 @@
+|PS1_ZAD14
+cin => Add1.IN4
+a => Add0.IN1
+b => Add0.IN2
+s <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'lab5_part3a:ex|counter_mod_M:ex1|Q[1]'
+Slack : -5.130
+TNS   : -34.219
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -4.386
+TNS   : -76.138
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.371
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'lab5_part3a:ex|counter_mod_M:ex1|Q[1]'
+Slack : 0.706
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.394
+TNS   : -15.837
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'lab5_part3a:ex|counter_mod_M:ex1|Q[1]'
+Slack : 0.351
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'lab5_part3a:ex|counter_mod_M:ex1|Q[1]'
+Slack : -5.081
+TNS   : -34.175
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -4.219
+TNS   : -71.807
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.371
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'lab5_part3a:ex|counter_mod_M:ex1|Q[1]'
+Slack : 0.524
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.394
+TNS   : -17.029
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'lab5_part3a:ex|counter_mod_M:ex1|Q[1]'
+Slack : 0.325
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'lab5_part3a:ex|counter_mod_M:ex1|Q[1]'
+Slack : -2.550
+TNS   : -16.568
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -2.432
+TNS   : -36.787
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'lab5_part3a:ex|counter_mod_M:ex1|Q[1]'
+Slack : 0.552
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.090
+TNS   : -2.648
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'lab5_part3a:ex|counter_mod_M:ex1|Q[1]'
+Slack : 0.448
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'lab5_part3a:ex|counter_mod_M:ex1|Q[1]'
+Slack : -2.343
+TNS   : -15.369
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -2.071
+TNS   : -29.506
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.173
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'lab5_part3a:ex|counter_mod_M:ex1|Q[1]'
+Slack : 0.435
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.090
+TNS   : -2.632
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'lab5_part3a:ex|counter_mod_M:ex1|Q[1]'
+Slack : 0.445
+TNS   : 0.000
+
+------------------------------------------------------------

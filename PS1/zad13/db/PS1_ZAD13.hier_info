@@ -1,0 +1,11 @@
+|PS1_ZAD13
+a => x.IN0
+a => z.IN0
+b => x.IN1
+b => z.IN1
+cin => comb.IN1
+cin => y.IN1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

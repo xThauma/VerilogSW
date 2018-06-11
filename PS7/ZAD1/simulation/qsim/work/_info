@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Kamil/Dropbox/sw/PS7/ZAD1/simulation/qsim
+vPS7_ZAD1
+Z1 !s110 1524575956
+!i10b 1
+!s100 aV2KL>G^52I8eV5WAZ^R53
+IQSWkkBC6Vn^8STa4SM8da1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1524575955
+8PS7_ZAD1.vo
+FPS7_ZAD1.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1524575956.000000
+!s107 PS7_ZAD1.vo|
+!s90 -work|work|PS7_ZAD1.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@p@s7_@z@a@d1
+vPS7_ZAD1_vlg_vec_tst
+R1
+!i10b 1
+!s100 I^Yh;UJ4@IY19CJlA`W>P1
+IM>V[F@40eFmmY1gJ`AKh=0
+R2
+R0
+w1524575952
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R5
+R6
+n@p@s7_@z@a@d1_vlg_vec_tst

@@ -1,0 +1,6 @@
+module PS1_ZAD15 (input cin, a, b,		// opis port�w wej�ciowych
+		      output s, cout);		// opis port�w wyj�ciowych
+
+	assign s = a ^ b ^ cin; 		// opis funkcji sumy
+	assign cout = a & b | (a ^ b) & cin; 	// opis funkcji przeniesienia
+endmodule

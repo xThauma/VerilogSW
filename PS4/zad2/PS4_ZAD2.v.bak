@@ -1,0 +1,18 @@
+module PS4_ZAD2(
+	input [1:0] SW,
+	output [0:0]LEDR);
+
+		latch_RS_gates ex0(SW[0],~SW[0],SW[1],LEDR[0]);
+		
+endmodule
+
+module latch_RS_gates (
+input [2:0] SW,
+output [0:0]LEDR);
+(*KEEP = "TRUE"*) wire R_g, S_g, Qa, Qb;
+and (R_g, SW[1], SW[2]);
+and (S_g, SW[0], SW[2]);
+nor (Qa, R_g, Qb);
+nor (Qb, S_g, Qa);
+assign LEDR[0] = Qa;
+endmodule

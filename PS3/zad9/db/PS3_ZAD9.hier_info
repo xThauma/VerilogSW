@@ -1,0 +1,105 @@
+|PS3_ZAD9
+SW[0] => Div0.IN15
+SW[0] => Mod0.IN15
+SW[0] => Mod1.IN12
+SW[0] => LEDR[0].DATAIN
+SW[1] => Div0.IN14
+SW[1] => Mod0.IN14
+SW[1] => Mod1.IN11
+SW[1] => LEDR[1].DATAIN
+SW[2] => Div0.IN13
+SW[2] => Mod0.IN13
+SW[2] => Mod1.IN10
+SW[2] => LEDR[2].DATAIN
+SW[3] => Div0.IN12
+SW[3] => Mod0.IN12
+SW[3] => Mod1.IN9
+SW[3] => LEDR[3].DATAIN
+SW[4] => Div0.IN11
+SW[4] => Mod0.IN11
+SW[4] => Mod1.IN8
+SW[4] => LEDR[4].DATAIN
+SW[5] => Div0.IN10
+SW[5] => Mod0.IN10
+SW[5] => Mod1.IN7
+SW[5] => LEDR[5].DATAIN
+SW[6] => Div0.IN9
+SW[6] => Mod0.IN9
+SW[6] => Mod1.IN6
+SW[7] => Div0.IN8
+SW[7] => Mod0.IN8
+SW[7] => Mod1.IN5
+SW[8] => Div0.IN7
+SW[8] => Mod0.IN7
+SW[8] => Mod1.IN4
+LEDR[0] <= SW[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= SW[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] <= SW[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[4] <= SW[4].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[5] <= SW[5].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[0] <= decoder_2_to_hex:h0.port1
+HEX0[1] <= decoder_2_to_hex:h0.port1
+HEX0[2] <= decoder_2_to_hex:h0.port1
+HEX0[3] <= decoder_2_to_hex:h0.port1
+HEX0[4] <= decoder_2_to_hex:h0.port1
+HEX0[5] <= decoder_2_to_hex:h0.port1
+HEX0[6] <= decoder_2_to_hex:h0.port1
+HEX1[0] <= decoder_2_to_hex:h1.port1
+HEX1[1] <= decoder_2_to_hex:h1.port1
+HEX1[2] <= decoder_2_to_hex:h1.port1
+HEX1[3] <= decoder_2_to_hex:h1.port1
+HEX1[4] <= decoder_2_to_hex:h1.port1
+HEX1[5] <= decoder_2_to_hex:h1.port1
+HEX1[6] <= decoder_2_to_hex:h1.port1
+HEX2[0] <= decoder_2_to_hex:h2.port1
+HEX2[1] <= decoder_2_to_hex:h2.port1
+HEX2[2] <= decoder_2_to_hex:h2.port1
+HEX2[3] <= decoder_2_to_hex:h2.port1
+HEX2[4] <= decoder_2_to_hex:h2.port1
+HEX2[5] <= decoder_2_to_hex:h2.port1
+HEX2[6] <= decoder_2_to_hex:h2.port1
+
+
+|PS3_ZAD9|decoder_2_to_hex:h2
+bin[0] => Decoder0.IN3
+bin[1] => Decoder0.IN2
+bin[2] => Decoder0.IN1
+bin[3] => Decoder0.IN0
+H[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+H[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+H[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+H[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+H[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+H[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+H[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS3_ZAD9|decoder_2_to_hex:h1
+bin[0] => Decoder0.IN3
+bin[1] => Decoder0.IN2
+bin[2] => Decoder0.IN1
+bin[3] => Decoder0.IN0
+H[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+H[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+H[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+H[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+H[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+H[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+H[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS3_ZAD9|decoder_2_to_hex:h0
+bin[0] => Decoder0.IN3
+bin[1] => Decoder0.IN2
+bin[2] => Decoder0.IN1
+bin[3] => Decoder0.IN0
+H[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+H[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+H[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+H[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+H[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+H[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+H[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,17 @@
+module PS4_ZAD3(
+input [1:0] SW,
+output [0:0] LEDR);
+
+		latch_D ex0(SW[0],~SW[1],q);
+		latch_D ex1(q,SW[1],LEDR[0]);
+		
+ 
+endmodule
+
+module latch_D(
+	input [1:0] SW,
+	output [0:0]LEDR);
+
+		latch_RS_gates ex0(SW[0],~SW[0],SW[1],LEDR[0]);
+		
+endmodule

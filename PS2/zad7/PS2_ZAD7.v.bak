@@ -1,0 +1,15 @@
+module PS2_ZAD7(
+	input [1:0] SW,
+	output reg [6:0] HEX0);
+	always @*
+		case (SW)
+			2'o0:
+				HEX0 = 7'b1111110;
+			2'o1:
+				HEX0 = 7'b1111101;
+			2'o2:
+				HEX0 = 7'b1111011;
+			2'o3:
+				HEX0 = 7'b1110111;
+		endcase
+endmodule

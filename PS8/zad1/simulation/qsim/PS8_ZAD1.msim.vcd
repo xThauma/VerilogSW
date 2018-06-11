@@ -1,0 +1,1105 @@
+$comment
+	File created using the following command:
+		vcd file PS8_ZAD1.msim.vcd -direction
+$end
+$date
+	Tue May 29 21:04:31 2018
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module PS8_ZAD1_vlg_vec_tst $end
+$var reg 2 ! KEY [1:0] $end
+$var reg 10 " SW [9:0] $end
+$var wire 1 # HEX0 [0] $end
+$var wire 1 $ HEX0 [1] $end
+$var wire 1 % HEX0 [2] $end
+$var wire 1 & HEX0 [3] $end
+$var wire 1 ' HEX0 [4] $end
+$var wire 1 ( HEX0 [5] $end
+$var wire 1 ) HEX0 [6] $end
+$var wire 1 * HEX2 [0] $end
+$var wire 1 + HEX2 [1] $end
+$var wire 1 , HEX2 [2] $end
+$var wire 1 - HEX2 [3] $end
+$var wire 1 . HEX2 [4] $end
+$var wire 1 / HEX2 [5] $end
+$var wire 1 0 HEX2 [6] $end
+$var wire 1 1 HEX4 [0] $end
+$var wire 1 2 HEX4 [1] $end
+$var wire 1 3 HEX4 [2] $end
+$var wire 1 4 HEX4 [3] $end
+$var wire 1 5 HEX4 [4] $end
+$var wire 1 6 HEX4 [5] $end
+$var wire 1 7 HEX4 [6] $end
+$var wire 1 8 HEX5 [0] $end
+$var wire 1 9 HEX5 [1] $end
+$var wire 1 : HEX5 [2] $end
+$var wire 1 ; HEX5 [3] $end
+$var wire 1 < HEX5 [4] $end
+$var wire 1 = HEX5 [5] $end
+$var wire 1 > HEX5 [6] $end
+
+$scope module i1 $end
+$var wire 1 ? gnd $end
+$var wire 1 @ vcc $end
+$var wire 1 A unknown $end
+$var tri1 1 B devclrn $end
+$var tri1 1 C devpor $end
+$var tri1 1 D devoe $end
+$var wire 1 E KEY[1]~input_o $end
+$var wire 1 F ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 G SW[9]~input_o $end
+$var wire 1 H KEY[0]~input_o $end
+$var wire 1 I KEY[0]~inputCLKENA0_outclk $end
+$var wire 1 J SW[0]~input_o $end
+$var wire 1 K SW[4]~input_o $end
+$var wire 1 L SW[5]~input_o $end
+$var wire 1 M SW[6]~input_o $end
+$var wire 1 N SW[7]~input_o $end
+$var wire 1 O SW[8]~input_o $end
+$var wire 1 P SW[1]~input_o $end
+$var wire 1 Q SW[2]~input_o $end
+$var wire 1 R SW[3]~input_o $end
+$var wire 1 S exm|memory_array_rtl_0|auto_generated|ram_block1a3 $end
+$var wire 1 T exm|memory_array_rtl_0|auto_generated|ram_block1a2 $end
+$var wire 1 U exm|memory_array_rtl_0|auto_generated|ram_block1a0~portadataout $end
+$var wire 1 V exm|memory_array_rtl_0|auto_generated|ram_block1a1 $end
+$var wire 1 W d0|WideOr6~0_combout $end
+$var wire 1 X d0|WideOr5~0_combout $end
+$var wire 1 Y d0|WideOr4~0_combout $end
+$var wire 1 Z d0|WideOr3~0_combout $end
+$var wire 1 [ d0|WideOr2~0_combout $end
+$var wire 1 \ d0|WideOr1~0_combout $end
+$var wire 1 ] d0|WideOr0~0_combout $end
+$var wire 1 ^ d2|WideOr6~0_combout $end
+$var wire 1 _ d2|WideOr5~0_combout $end
+$var wire 1 ` d2|WideOr4~0_combout $end
+$var wire 1 a d2|WideOr3~0_combout $end
+$var wire 1 b d2|WideOr2~0_combout $end
+$var wire 1 c d2|WideOr1~0_combout $end
+$var wire 1 d d2|WideOr0~0_combout $end
+$var wire 1 e d4|WideOr6~0_combout $end
+$var wire 1 f d4|WideOr5~0_combout $end
+$var wire 1 g d4|WideOr4~0_combout $end
+$var wire 1 h d4|WideOr3~0_combout $end
+$var wire 1 i d4|WideOr2~0_combout $end
+$var wire 1 j d4|WideOr1~0_combout $end
+$var wire 1 k d4|WideOr0~0_combout $end
+$var wire 1 l exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [19] $end
+$var wire 1 m exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [18] $end
+$var wire 1 n exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [17] $end
+$var wire 1 o exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [16] $end
+$var wire 1 p exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [15] $end
+$var wire 1 q exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [14] $end
+$var wire 1 r exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [13] $end
+$var wire 1 s exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [12] $end
+$var wire 1 t exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [11] $end
+$var wire 1 u exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [10] $end
+$var wire 1 v exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [9] $end
+$var wire 1 w exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [8] $end
+$var wire 1 x exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [7] $end
+$var wire 1 y exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [6] $end
+$var wire 1 z exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [5] $end
+$var wire 1 { exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [4] $end
+$var wire 1 | exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [3] $end
+$var wire 1 } exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [2] $end
+$var wire 1 ~ exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [1] $end
+$var wire 1 !! exm|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+1)
+0(
+0'
+0&
+0%
+0$
+0#
+10
+0/
+0.
+0-
+0,
+0+
+0*
+17
+06
+05
+04
+03
+02
+01
+1>
+0=
+0<
+0;
+0:
+09
+08
+0?
+1@
+xA
+1B
+1C
+1D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+0g
+0h
+0i
+0j
+0k
+0!!
+0~
+0}
+0|
+0{
+0z
+0y
+0x
+0w
+0v
+0u
+0t
+0s
+0r
+0q
+0p
+0o
+0n
+0m
+0l
+$end
+#5000
+b10 !
+b11 !
+b1000000000 "
+b1100000000 "
+b1110000000 "
+b1111000000 "
+b1111100000 "
+b1111110000 "
+b1111111000 "
+b1111111100 "
+b1111111110 "
+b1111111111 "
+1J
+1P
+1Q
+1R
+1K
+1L
+1M
+1N
+1G
+1H
+1E
+1I
+1O
+1=
+1<
+1;
+18
+1e
+1^
+1j
+1i
+1h
+1c
+1b
+1a
+1-
+1,
+1+
+14
+13
+12
+00
+07
+#5001
+1!!
+1~
+1}
+1|
+1S
+1T
+1V
+1U
+1W
+1\
+1[
+1Z
+1&
+1%
+1$
+0)
+#10000
+b1 !
+b0 !
+b111111111 "
+b11111111 "
+b1111111 "
+b111111 "
+b11111 "
+b1111 "
+b111 "
+b11 "
+b1 "
+b0 "
+0J
+0P
+0Q
+0R
+0K
+0L
+0M
+0N
+0G
+0H
+0E
+0I
+0O
+0=
+0<
+0;
+08
+0e
+0^
+0j
+0i
+0h
+0c
+0b
+0a
+0-
+0,
+0+
+04
+03
+02
+10
+17
+#15000
+b10 !
+b11 !
+b1000000000 "
+b1100000000 "
+b1110000000 "
+b1111000000 "
+b1111100000 "
+b1111110000 "
+b1111111000 "
+b1111111100 "
+b1111111110 "
+b1111111111 "
+1J
+1P
+1Q
+1R
+1K
+1L
+1M
+1N
+1G
+1H
+1E
+1I
+1O
+1=
+1<
+1;
+18
+1e
+1^
+1j
+1i
+1h
+1c
+1b
+1a
+1-
+1,
+1+
+14
+13
+12
+00
+07
+#20000
+b1 !
+b0 !
+b111111111 "
+b11111111 "
+b1111111 "
+b111111 "
+b11111 "
+b1111 "
+b111 "
+b11 "
+b1 "
+b0 "
+0J
+0P
+0Q
+0R
+0K
+0L
+0M
+0N
+0G
+0H
+0E
+0I
+0O
+0=
+0<
+0;
+08
+0e
+0^
+0j
+0i
+0h
+0c
+0b
+0a
+0-
+0,
+0+
+04
+03
+02
+10
+17
+#25000
+b10 !
+b11 !
+b1000000000 "
+b1100000000 "
+b1110000000 "
+b1111000000 "
+b1111100000 "
+b1111110000 "
+b1111111000 "
+b1111111100 "
+b1111111110 "
+b1111111111 "
+1J
+1P
+1Q
+1R
+1K
+1L
+1M
+1N
+1G
+1H
+1E
+1I
+1O
+1=
+1<
+1;
+18
+1e
+1^
+1j
+1i
+1h
+1c
+1b
+1a
+1-
+1,
+1+
+14
+13
+12
+00
+07
+#30000
+b1 !
+b0 !
+b111111111 "
+b11111111 "
+b1111111 "
+b111111 "
+b11111 "
+b1111 "
+b111 "
+b11 "
+b1 "
+b0 "
+0J
+0P
+0Q
+0R
+0K
+0L
+0M
+0N
+0G
+0H
+0E
+0I
+0O
+0=
+0<
+0;
+08
+0e
+0^
+0j
+0i
+0h
+0c
+0b
+0a
+0-
+0,
+0+
+04
+03
+02
+10
+17
+#35000
+b10 !
+b11 !
+b1000000000 "
+b1100000000 "
+b1110000000 "
+b1111000000 "
+b1111100000 "
+b1111110000 "
+b1111111000 "
+b1111111100 "
+b1111111110 "
+b1111111111 "
+1J
+1P
+1Q
+1R
+1K
+1L
+1M
+1N
+1G
+1H
+1E
+1I
+1O
+1=
+1<
+1;
+18
+1e
+1^
+1j
+1i
+1h
+1c
+1b
+1a
+1-
+1,
+1+
+14
+13
+12
+00
+07
+#40000
+b1 !
+b0 !
+b111111111 "
+b11111111 "
+b1111111 "
+b111111 "
+b11111 "
+b1111 "
+b111 "
+b11 "
+b1 "
+b0 "
+0J
+0P
+0Q
+0R
+0K
+0L
+0M
+0N
+0G
+0H
+0E
+0I
+0O
+0=
+0<
+0;
+08
+0e
+0^
+0j
+0i
+0h
+0c
+0b
+0a
+0-
+0,
+0+
+04
+03
+02
+10
+17
+#45000
+b10 !
+b11 !
+b1000000000 "
+b1100000000 "
+b1110000000 "
+b1111000000 "
+b1111100000 "
+b1111110000 "
+b1111111000 "
+b1111111100 "
+b1111111110 "
+b1111111111 "
+1J
+1P
+1Q
+1R
+1K
+1L
+1M
+1N
+1G
+1H
+1E
+1I
+1O
+1=
+1<
+1;
+18
+1e
+1^
+1j
+1i
+1h
+1c
+1b
+1a
+1-
+1,
+1+
+14
+13
+12
+00
+07
+#50000
+b1 !
+b0 !
+b111111111 "
+b11111111 "
+b1111111 "
+b111111 "
+b11111 "
+b1111 "
+b111 "
+b11 "
+b1 "
+b0 "
+0J
+0P
+0Q
+0R
+0K
+0L
+0M
+0N
+0G
+0H
+0E
+0I
+0O
+0=
+0<
+0;
+08
+0e
+0^
+0j
+0i
+0h
+0c
+0b
+0a
+0-
+0,
+0+
+04
+03
+02
+10
+17
+#55000
+b10 !
+b11 !
+b1000000000 "
+b1100000000 "
+b1110000000 "
+b1111000000 "
+b1111100000 "
+b1111110000 "
+b1111111000 "
+b1111111100 "
+b1111111110 "
+b1111111111 "
+1J
+1P
+1Q
+1R
+1K
+1L
+1M
+1N
+1G
+1H
+1E
+1I
+1O
+1=
+1<
+1;
+18
+1e
+1^
+1j
+1i
+1h
+1c
+1b
+1a
+1-
+1,
+1+
+14
+13
+12
+00
+07
+#60000
+b1 !
+b0 !
+b111111111 "
+b11111111 "
+b1111111 "
+b111111 "
+b11111 "
+b1111 "
+b111 "
+b11 "
+b1 "
+b0 "
+0J
+0P
+0Q
+0R
+0K
+0L
+0M
+0N
+0G
+0H
+0E
+0I
+0O
+0=
+0<
+0;
+08
+0e
+0^
+0j
+0i
+0h
+0c
+0b
+0a
+0-
+0,
+0+
+04
+03
+02
+10
+17
+#65000
+b10 !
+b11 !
+b1000000000 "
+b1100000000 "
+b1110000000 "
+b1111000000 "
+b1111100000 "
+b1111110000 "
+b1111111000 "
+b1111111100 "
+b1111111110 "
+b1111111111 "
+1J
+1P
+1Q
+1R
+1K
+1L
+1M
+1N
+1G
+1H
+1E
+1I
+1O
+1=
+1<
+1;
+18
+1e
+1^
+1j
+1i
+1h
+1c
+1b
+1a
+1-
+1,
+1+
+14
+13
+12
+00
+07
+#70000
+b1 !
+b0 !
+b111111111 "
+b11111111 "
+b1111111 "
+b111111 "
+b11111 "
+b1111 "
+b111 "
+b11 "
+b1 "
+b0 "
+0J
+0P
+0Q
+0R
+0K
+0L
+0M
+0N
+0G
+0H
+0E
+0I
+0O
+0=
+0<
+0;
+08
+0e
+0^
+0j
+0i
+0h
+0c
+0b
+0a
+0-
+0,
+0+
+04
+03
+02
+10
+17
+#75000
+b10 !
+b11 !
+b1000000000 "
+b1100000000 "
+b1110000000 "
+b1111000000 "
+b1111100000 "
+b1111110000 "
+b1111111000 "
+b1111111100 "
+b1111111110 "
+b1111111111 "
+1J
+1P
+1Q
+1R
+1K
+1L
+1M
+1N
+1G
+1H
+1E
+1I
+1O
+1=
+1<
+1;
+18
+1e
+1^
+1j
+1i
+1h
+1c
+1b
+1a
+1-
+1,
+1+
+14
+13
+12
+00
+07
+#80000
+b1 !
+b0 !
+b111111111 "
+b11111111 "
+b1111111 "
+b111111 "
+b11111 "
+b1111 "
+b111 "
+b11 "
+b1 "
+b0 "
+0J
+0P
+0Q
+0R
+0K
+0L
+0M
+0N
+0G
+0H
+0E
+0I
+0O
+0=
+0<
+0;
+08
+0e
+0^
+0j
+0i
+0h
+0c
+0b
+0a
+0-
+0,
+0+
+04
+03
+02
+10
+17
+#85000
+b10 !
+b11 !
+b1000000000 "
+b1100000000 "
+b1110000000 "
+b1111000000 "
+b1111100000 "
+b1111110000 "
+b1111111000 "
+b1111111100 "
+b1111111110 "
+b1111111111 "
+1J
+1P
+1Q
+1R
+1K
+1L
+1M
+1N
+1G
+1H
+1E
+1I
+1O
+1=
+1<
+1;
+18
+1e
+1^
+1j
+1i
+1h
+1c
+1b
+1a
+1-
+1,
+1+
+14
+13
+12
+00
+07
+#90000
+b1 !
+b0 !
+b111111111 "
+b11111111 "
+b1111111 "
+b111111 "
+b11111 "
+b1111 "
+b111 "
+b11 "
+b1 "
+b0 "
+0J
+0P
+0Q
+0R
+0K
+0L
+0M
+0N
+0G
+0H
+0E
+0I
+0O
+0=
+0<
+0;
+08
+0e
+0^
+0j
+0i
+0h
+0c
+0b
+0a
+0-
+0,
+0+
+04
+03
+02
+10
+17
+#95000
+b10 !
+b11 !
+b1000000000 "
+b1100000000 "
+b1110000000 "
+b1111000000 "
+b1111100000 "
+b1111110000 "
+b1111111000 "
+b1111111100 "
+b1111111110 "
+b1111111111 "
+1J
+1P
+1Q
+1R
+1K
+1L
+1M
+1N
+1G
+1H
+1E
+1I
+1O
+1=
+1<
+1;
+18
+1e
+1^
+1j
+1i
+1h
+1c
+1b
+1a
+1-
+1,
+1+
+14
+13
+12
+00
+07
+#100000

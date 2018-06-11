@@ -1,0 +1,137 @@
+|PS8_ZAD1
+SW[0] => SW[0].IN2
+SW[1] => SW[1].IN2
+SW[2] => SW[2].IN2
+SW[3] => SW[3].IN2
+SW[4] => SW[4].IN2
+SW[5] => SW[5].IN2
+SW[6] => SW[6].IN2
+SW[7] => SW[7].IN2
+SW[8] => SW[8].IN2
+SW[9] => SW[9].IN1
+KEY[0] => KEY[0].IN1
+KEY[1] => ~NO_FANOUT~
+HEX0[6] <= decoder_hex_16:d0.port1
+HEX0[5] <= decoder_hex_16:d0.port1
+HEX0[4] <= decoder_hex_16:d0.port1
+HEX0[3] <= decoder_hex_16:d0.port1
+HEX0[2] <= decoder_hex_16:d0.port1
+HEX0[1] <= decoder_hex_16:d0.port1
+HEX0[0] <= decoder_hex_16:d0.port1
+HEX2[6] <= decoder_hex_16:d2.port1
+HEX2[5] <= decoder_hex_16:d2.port1
+HEX2[4] <= decoder_hex_16:d2.port1
+HEX2[3] <= decoder_hex_16:d2.port1
+HEX2[2] <= decoder_hex_16:d2.port1
+HEX2[1] <= decoder_hex_16:d2.port1
+HEX2[0] <= decoder_hex_16:d2.port1
+HEX4[6] <= decoder_hex_16:d4.port1
+HEX4[5] <= decoder_hex_16:d4.port1
+HEX4[4] <= decoder_hex_16:d4.port1
+HEX4[3] <= decoder_hex_16:d4.port1
+HEX4[2] <= decoder_hex_16:d4.port1
+HEX4[1] <= decoder_hex_16:d4.port1
+HEX4[0] <= decoder_hex_16:d4.port1
+HEX5[6] <= decoder_hex_16:d5.port1
+HEX5[5] <= decoder_hex_16:d5.port1
+HEX5[4] <= decoder_hex_16:d5.port1
+HEX5[3] <= decoder_hex_16:d5.port1
+HEX5[2] <= decoder_hex_16:d5.port1
+HEX5[1] <= decoder_hex_16:d5.port1
+HEX5[0] <= decoder_hex_16:d5.port1
+
+
+|PS8_ZAD1|my_ram32x4_3:exm
+Address[0] => reg_Address[0].DATAIN
+Address[0] => memory_array.WADDR
+Address[1] => reg_Address[1].DATAIN
+Address[1] => memory_array.WADDR1
+Address[2] => reg_Address[2].DATAIN
+Address[2] => memory_array.WADDR2
+Address[3] => reg_Address[3].DATAIN
+Address[3] => memory_array.WADDR3
+Address[4] => reg_Address[4].DATAIN
+Address[4] => memory_array.WADDR4
+clk => reg_Write.CLK
+clk => reg_DataIn[0].CLK
+clk => reg_DataIn[1].CLK
+clk => reg_DataIn[2].CLK
+clk => reg_DataIn[3].CLK
+clk => reg_Address[0].CLK
+clk => reg_Address[1].CLK
+clk => reg_Address[2].CLK
+clk => reg_Address[3].CLK
+clk => reg_Address[4].CLK
+clk => memory_array.CLK0
+DataIn[0] => reg_DataIn[0].DATAIN
+DataIn[0] => memory_array.DATAIN
+DataIn[1] => reg_DataIn[1].DATAIN
+DataIn[1] => memory_array.DATAIN1
+DataIn[2] => reg_DataIn[2].DATAIN
+DataIn[2] => memory_array.DATAIN2
+DataIn[3] => reg_DataIn[3].DATAIN
+DataIn[3] => memory_array.DATAIN3
+Write => reg_Write.DATAIN
+Write => memory_array.WE
+DataOut[0] <= memory_array.DATAOUT
+DataOut[1] <= memory_array.DATAOUT1
+DataOut[2] <= memory_array.DATAOUT2
+DataOut[3] <= memory_array.DATAOUT3
+
+
+|PS8_ZAD1|decoder_hex_16:d5
+liczba[0] => Decoder0.IN3
+liczba[1] => Decoder0.IN2
+liczba[2] => Decoder0.IN1
+liczba[3] => Decoder0.IN0
+H[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+H[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+H[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+H[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+H[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+H[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+H[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS8_ZAD1|decoder_hex_16:d4
+liczba[0] => Decoder0.IN3
+liczba[1] => Decoder0.IN2
+liczba[2] => Decoder0.IN1
+liczba[3] => Decoder0.IN0
+H[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+H[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+H[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+H[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+H[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+H[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+H[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS8_ZAD1|decoder_hex_16:d2
+liczba[0] => Decoder0.IN3
+liczba[1] => Decoder0.IN2
+liczba[2] => Decoder0.IN1
+liczba[3] => Decoder0.IN0
+H[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+H[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+H[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+H[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+H[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+H[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+H[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS8_ZAD1|decoder_hex_16:d0
+liczba[0] => Decoder0.IN3
+liczba[1] => Decoder0.IN2
+liczba[2] => Decoder0.IN1
+liczba[3] => Decoder0.IN0
+H[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+H[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+H[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+H[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+H[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+H[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+H[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

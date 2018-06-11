@@ -1,0 +1,271 @@
+|PS7_ZAD3
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+LEDR[0] << LEDR[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] << LEDR[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] << LEDR[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] << LEDR[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[4] << LEDR[4].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[5] << LEDR[5].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[6] << LEDR[6].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[7] << LEDR[7].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[6] << display:d1.port1
+HEX0[5] << display:d1.port1
+HEX0[4] << display:d1.port1
+HEX0[3] << display:d1.port1
+HEX0[2] << display:d1.port1
+HEX0[1] << display:d1.port1
+HEX0[0] << display:d1.port1
+HEX2[6] << display:d2.port1
+HEX2[5] << display:d2.port1
+HEX2[4] << display:d2.port1
+HEX2[3] << display:d2.port1
+HEX2[2] << display:d2.port1
+HEX2[1] << display:d2.port1
+HEX2[0] << display:d2.port1
+HEX4[6] << display:d3.port1
+HEX4[5] << display:d3.port1
+HEX4[4] << display:d3.port1
+HEX4[3] << display:d3.port1
+HEX4[2] << display:d3.port1
+HEX4[1] << display:d3.port1
+HEX4[0] << display:d3.port1
+HEX5[6] << display:d4.port1
+HEX5[5] << display:d4.port1
+HEX5[4] << display:d4.port1
+HEX5[3] << display:d4.port1
+HEX5[2] << display:d4.port1
+HEX5[1] << display:d4.port1
+HEX5[0] << display:d4.port1
+
+
+|PS7_ZAD3|fulladder:a17
+a => s.IN0
+a => ca.IN0
+a => ca.IN0
+b => s.IN1
+b => ca.IN1
+b => ca.IN0
+c => s.IN1
+c => ca.IN1
+c => ca.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+ca <= ca.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS7_ZAD3|fulladder:a18
+a => s.IN0
+a => ca.IN0
+a => ca.IN0
+b => s.IN1
+b => ca.IN1
+b => ca.IN0
+c => s.IN1
+c => ca.IN1
+c => ca.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+ca <= ca.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS7_ZAD3|fulladder:a19
+a => s.IN0
+a => ca.IN0
+a => ca.IN0
+b => s.IN1
+b => ca.IN1
+b => ca.IN0
+c => s.IN1
+c => ca.IN1
+c => ca.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+ca <= ca.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS7_ZAD3|fulladder:a20
+a => s.IN0
+a => ca.IN0
+a => ca.IN0
+b => s.IN1
+b => ca.IN1
+b => ca.IN0
+c => s.IN1
+c => ca.IN1
+c => ca.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+ca <= ca.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS7_ZAD3|fulladder:a21
+a => s.IN0
+a => ca.IN0
+a => ca.IN0
+b => s.IN1
+b => ca.IN1
+b => ca.IN0
+c => s.IN1
+c => ca.IN1
+c => ca.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+ca <= ca.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS7_ZAD3|fulladder:a22
+a => s.IN0
+a => ca.IN0
+a => ca.IN0
+b => s.IN1
+b => ca.IN1
+b => ca.IN0
+c => s.IN1
+c => ca.IN1
+c => ca.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+ca <= ca.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS7_ZAD3|fulladder:a23
+a => s.IN0
+a => ca.IN0
+a => ca.IN0
+b => s.IN1
+b => ca.IN1
+b => ca.IN0
+c => s.IN1
+c => ca.IN1
+c => ca.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+ca <= ca.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS7_ZAD3|fulladder:a24
+a => s.IN0
+a => ca.IN0
+a => ca.IN0
+b => s.IN1
+b => ca.IN1
+b => ca.IN0
+c => s.IN1
+c => ca.IN1
+c => ca.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+ca <= ca.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS7_ZAD3|fulladder:a25
+a => s.IN0
+a => ca.IN0
+a => ca.IN0
+b => s.IN1
+b => ca.IN1
+b => ca.IN0
+c => s.IN1
+c => ca.IN1
+c => ca.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+ca <= ca.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS7_ZAD3|fulladder:a26
+a => s.IN0
+a => ca.IN0
+a => ca.IN0
+b => s.IN1
+b => ca.IN1
+b => ca.IN0
+c => s.IN1
+c => ca.IN1
+c => ca.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+ca <= ca.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS7_ZAD3|fulladder:a27
+a => s.IN0
+a => ca.IN0
+a => ca.IN0
+b => s.IN1
+b => ca.IN1
+b => ca.IN0
+c => s.IN1
+c => ca.IN1
+c => ca.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+ca <= ca.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS7_ZAD3|fulladder:a28
+a => s.IN0
+a => ca.IN0
+a => ca.IN0
+b => s.IN1
+b => ca.IN1
+b => ca.IN0
+c => s.IN1
+c => ca.IN1
+c => ca.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+ca <= ca.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS7_ZAD3|display:d1
+liczba[0] => Decoder0.IN3
+liczba[1] => Decoder0.IN2
+liczba[2] => Decoder0.IN1
+liczba[3] => Decoder0.IN0
+H[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+H[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+H[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+H[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+H[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+H[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+H[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS7_ZAD3|display:d2
+liczba[0] => Decoder0.IN3
+liczba[1] => Decoder0.IN2
+liczba[2] => Decoder0.IN1
+liczba[3] => Decoder0.IN0
+H[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+H[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+H[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+H[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+H[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+H[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+H[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS7_ZAD3|display:d3
+liczba[0] => Decoder0.IN3
+liczba[1] => Decoder0.IN2
+liczba[2] => Decoder0.IN1
+liczba[3] => Decoder0.IN0
+H[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+H[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+H[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+H[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+H[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+H[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+H[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS7_ZAD3|display:d4
+liczba[0] => Decoder0.IN3
+liczba[1] => Decoder0.IN2
+liczba[2] => Decoder0.IN1
+liczba[3] => Decoder0.IN0
+H[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+H[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+H[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+H[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+H[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+H[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+H[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

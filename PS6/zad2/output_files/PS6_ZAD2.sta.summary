@@ -1,0 +1,341 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'counter_modulo_k:ex01|Q[1]'
+Slack : -4.738
+TNS   : -47.088
+
+Type  : Slow 1100mV 85C Model Setup 'counter_modulo_k:ex11|Q[1]'
+Slack : -4.540
+TNS   : -38.342
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -4.471
+TNS   : -91.783
+
+Type  : Slow 1100mV 85C Model Setup 'counter_modulo_k:ex01|Q[0]'
+Slack : -4.204
+TNS   : -15.676
+
+Type  : Slow 1100mV 85C Model Setup 'counter_modulo_k:ex21|Q[1]'
+Slack : -3.803
+TNS   : -24.281
+
+Type  : Slow 1100mV 85C Model Setup 'delay_1_sec:del|counter_mod_M:ex1|Q[0]'
+Slack : -3.253
+TNS   : -10.496
+
+Type  : Slow 1100mV 85C Model Setup 'counter_modulo_k:ex11|Q[0]'
+Slack : -2.870
+TNS   : -8.644
+
+Type  : Slow 1100mV 85C Model Hold 'delay_1_sec:del|counter_mod_M:ex1|Q[0]'
+Slack : -1.993
+TNS   : -6.109
+
+Type  : Slow 1100mV 85C Model Hold 'counter_modulo_k:ex11|Q[0]'
+Slack : -0.724
+TNS   : -0.724
+
+Type  : Slow 1100mV 85C Model Hold 'counter_modulo_k:ex11|Q[1]'
+Slack : -0.491
+TNS   : -0.491
+
+Type  : Slow 1100mV 85C Model Hold 'counter_modulo_k:ex01|Q[1]'
+Slack : -0.059
+TNS   : -0.059
+
+Type  : Slow 1100mV 85C Model Hold 'counter_modulo_k:ex01|Q[0]'
+Slack : -0.019
+TNS   : -0.019
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.386
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'counter_modulo_k:ex21|Q[1]'
+Slack : 0.834
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.462
+TNS   : -19.010
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'delay_1_sec:del|counter_mod_M:ex1|Q[0]'
+Slack : -0.394
+TNS   : -2.766
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'counter_modulo_k:ex11|Q[0]'
+Slack : -0.394
+TNS   : -2.316
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'counter_modulo_k:ex01|Q[0]'
+Slack : -0.394
+TNS   : -2.212
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'counter_modulo_k:ex01|Q[1]'
+Slack : -0.394
+TNS   : -2.084
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'counter_modulo_k:ex11|Q[1]'
+Slack : -0.394
+TNS   : -2.048
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'counter_modulo_k:ex21|Q[1]'
+Slack : 0.417
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'counter_modulo_k:ex01|Q[1]'
+Slack : -4.600
+TNS   : -45.251
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -4.517
+TNS   : -91.019
+
+Type  : Slow 1100mV 0C Model Setup 'counter_modulo_k:ex11|Q[1]'
+Slack : -4.285
+TNS   : -36.913
+
+Type  : Slow 1100mV 0C Model Setup 'counter_modulo_k:ex01|Q[0]'
+Slack : -4.163
+TNS   : -15.619
+
+Type  : Slow 1100mV 0C Model Setup 'counter_modulo_k:ex21|Q[1]'
+Slack : -3.738
+TNS   : -23.734
+
+Type  : Slow 1100mV 0C Model Setup 'delay_1_sec:del|counter_mod_M:ex1|Q[0]'
+Slack : -3.209
+TNS   : -10.455
+
+Type  : Slow 1100mV 0C Model Setup 'counter_modulo_k:ex11|Q[0]'
+Slack : -2.837
+TNS   : -8.471
+
+Type  : Slow 1100mV 0C Model Hold 'delay_1_sec:del|counter_mod_M:ex1|Q[0]'
+Slack : -1.790
+TNS   : -5.338
+
+Type  : Slow 1100mV 0C Model Hold 'counter_modulo_k:ex11|Q[0]'
+Slack : -0.634
+TNS   : -0.634
+
+Type  : Slow 1100mV 0C Model Hold 'counter_modulo_k:ex11|Q[1]'
+Slack : -0.375
+TNS   : -0.375
+
+Type  : Slow 1100mV 0C Model Hold 'counter_modulo_k:ex01|Q[1]'
+Slack : -0.093
+TNS   : -0.093
+
+Type  : Slow 1100mV 0C Model Hold 'counter_modulo_k:ex01|Q[0]'
+Slack : 0.067
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'counter_modulo_k:ex21|Q[1]'
+Slack : 0.646
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.468
+TNS   : -20.407
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'delay_1_sec:del|counter_mod_M:ex1|Q[0]'
+Slack : -0.394
+TNS   : -2.876
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'counter_modulo_k:ex11|Q[0]'
+Slack : -0.394
+TNS   : -2.332
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'counter_modulo_k:ex01|Q[0]'
+Slack : -0.394
+TNS   : -2.220
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'counter_modulo_k:ex11|Q[1]'
+Slack : -0.394
+TNS   : -2.060
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'counter_modulo_k:ex01|Q[1]'
+Slack : -0.394
+TNS   : -2.056
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'counter_modulo_k:ex21|Q[1]'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'counter_modulo_k:ex01|Q[1]'
+Slack : -2.851
+TNS   : -25.800
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -2.749
+TNS   : -40.119
+
+Type  : Fast 1100mV 85C Model Setup 'counter_modulo_k:ex11|Q[1]'
+Slack : -2.587
+TNS   : -21.484
+
+Type  : Fast 1100mV 85C Model Setup 'counter_modulo_k:ex01|Q[0]'
+Slack : -2.573
+TNS   : -9.348
+
+Type  : Fast 1100mV 85C Model Setup 'counter_modulo_k:ex21|Q[1]'
+Slack : -2.052
+TNS   : -12.997
+
+Type  : Fast 1100mV 85C Model Setup 'counter_modulo_k:ex11|Q[0]'
+Slack : -1.777
+TNS   : -5.133
+
+Type  : Fast 1100mV 85C Model Setup 'delay_1_sec:del|counter_mod_M:ex1|Q[0]'
+Slack : -1.749
+TNS   : -5.292
+
+Type  : Fast 1100mV 85C Model Hold 'delay_1_sec:del|counter_mod_M:ex1|Q[0]'
+Slack : -1.388
+TNS   : -4.476
+
+Type  : Fast 1100mV 85C Model Hold 'counter_modulo_k:ex11|Q[0]'
+Slack : -0.519
+TNS   : -0.519
+
+Type  : Fast 1100mV 85C Model Hold 'counter_modulo_k:ex11|Q[1]'
+Slack : -0.413
+TNS   : -0.413
+
+Type  : Fast 1100mV 85C Model Hold 'counter_modulo_k:ex01|Q[1]'
+Slack : -0.156
+TNS   : -0.156
+
+Type  : Fast 1100mV 85C Model Hold 'counter_modulo_k:ex01|Q[0]'
+Slack : -0.018
+TNS   : -0.018
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.207
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'counter_modulo_k:ex21|Q[1]'
+Slack : 0.316
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.463
+TNS   : -3.639
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'delay_1_sec:del|counter_mod_M:ex1|Q[0]'
+Slack : -0.108
+TNS   : -0.431
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'counter_modulo_k:ex11|Q[0]'
+Slack : 0.128
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'counter_modulo_k:ex01|Q[0]'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'counter_modulo_k:ex01|Q[1]'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'counter_modulo_k:ex11|Q[1]'
+Slack : 0.159
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'counter_modulo_k:ex21|Q[1]'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'counter_modulo_k:ex01|Q[1]'
+Slack : -2.565
+TNS   : -22.661
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -2.454
+TNS   : -34.996
+
+Type  : Fast 1100mV 0C Model Setup 'counter_modulo_k:ex01|Q[0]'
+Slack : -2.339
+TNS   : -8.553
+
+Type  : Fast 1100mV 0C Model Setup 'counter_modulo_k:ex11|Q[1]'
+Slack : -2.283
+TNS   : -19.222
+
+Type  : Fast 1100mV 0C Model Setup 'counter_modulo_k:ex21|Q[1]'
+Slack : -1.856
+TNS   : -11.729
+
+Type  : Fast 1100mV 0C Model Setup 'counter_modulo_k:ex11|Q[0]'
+Slack : -1.578
+TNS   : -4.627
+
+Type  : Fast 1100mV 0C Model Setup 'delay_1_sec:del|counter_mod_M:ex1|Q[0]'
+Slack : -1.547
+TNS   : -4.654
+
+Type  : Fast 1100mV 0C Model Hold 'delay_1_sec:del|counter_mod_M:ex1|Q[0]'
+Slack : -1.227
+TNS   : -3.921
+
+Type  : Fast 1100mV 0C Model Hold 'counter_modulo_k:ex11|Q[0]'
+Slack : -0.482
+TNS   : -0.482
+
+Type  : Fast 1100mV 0C Model Hold 'counter_modulo_k:ex11|Q[1]'
+Slack : -0.372
+TNS   : -0.372
+
+Type  : Fast 1100mV 0C Model Hold 'counter_modulo_k:ex01|Q[1]'
+Slack : -0.182
+TNS   : -0.200
+
+Type  : Fast 1100mV 0C Model Hold 'counter_modulo_k:ex01|Q[0]'
+Slack : -0.029
+TNS   : -0.029
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'counter_modulo_k:ex21|Q[1]'
+Slack : 0.227
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.453
+TNS   : -3.576
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'delay_1_sec:del|counter_mod_M:ex1|Q[0]'
+Slack : -0.082
+TNS   : -0.325
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'counter_modulo_k:ex01|Q[0]'
+Slack : 0.122
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'counter_modulo_k:ex11|Q[0]'
+Slack : 0.125
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'counter_modulo_k:ex01|Q[1]'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'counter_modulo_k:ex11|Q[1]'
+Slack : 0.156
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'counter_modulo_k:ex21|Q[1]'
+Slack : 0.472
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,23 @@
+|PS4_ZAD3
+SW[0] => firstLatchInput[0].DATAIN
+SW[1] => secondLatchInput[1].DATAIN
+SW[1] => firstLatchInput[1].DATAIN
+LEDR[0] <= LEDR[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS4_ZAD3|latch_D:latchOne
+SW[0] => S.IN0
+SW[0] => R_g.IN0
+SW[1] => S_g.IN1
+SW[1] => R_g.IN1
+LEDR[0] <= LEDR[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS4_ZAD3|latch_D:latchTwo
+SW[0] => S.IN0
+SW[0] => R_g.IN0
+SW[1] => S_g.IN1
+SW[1] => R_g.IN1
+LEDR[0] <= LEDR[0].DB_MAX_OUTPUT_PORT_TYPE
+
+

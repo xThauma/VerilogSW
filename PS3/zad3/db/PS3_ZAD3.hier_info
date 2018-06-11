@@ -1,0 +1,50 @@
+|PS3_ZAD3
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+HEX0[6] <= bcd_translate:jed.port1
+HEX0[5] <= bcd_translate:jed.port1
+HEX0[4] <= bcd_translate:jed.port1
+HEX0[3] <= bcd_translate:jed.port1
+HEX0[2] <= bcd_translate:jed.port1
+HEX0[1] <= bcd_translate:jed.port1
+HEX0[0] <= bcd_translate:jed.port1
+HEX1[6] <= bcd_translate:jed.port2
+HEX1[5] <= bcd_translate:jed.port2
+HEX1[4] <= bcd_translate:jed.port2
+HEX1[3] <= bcd_translate:jed.port2
+HEX1[2] <= bcd_translate:jed.port2
+HEX1[1] <= bcd_translate:jed.port2
+HEX1[0] <= bcd_translate:jed.port2
+
+
+|PS3_ZAD3|bcd_translate:jed
+A[0] => Decoder0.IN7
+A[1] => Decoder0.IN6
+A[2] => Decoder0.IN5
+A[3] => Decoder0.IN4
+A[4] => Decoder0.IN3
+A[5] => Decoder0.IN2
+A[6] => Decoder0.IN1
+A[7] => Decoder0.IN0
+C[6] <= C[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+C[5] <= C[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+C[4] <= C[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+C[3] <= C[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+C[2] <= C[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+C[1] <= C[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+C[0] <= C[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+D[6] <= <VCC>
+D[5] <= <VCC>
+D[4] <= <VCC>
+D[3] <= <VCC>
+D[2] <= D[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= D[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+D[0] <= <VCC>
+
+

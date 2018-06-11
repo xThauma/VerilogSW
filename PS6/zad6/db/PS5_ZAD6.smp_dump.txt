@@ -1,0 +1,12 @@
+
+State Machine - |PS5_ZAD6|FSM_user_coding:ex|y_Q
+Name y_Q.state_bit_3 y_Q.state_bit_2 y_Q.state_bit_1 y_Q.state_bit_0 
+y_Q.A 0 0 0 0 
+y_Q.B 0 0 1 0 
+y_Q.C 0 1 1 0 
+y_Q.D 0 1 0 0 
+y_Q.E 1 1 0 0 
+y_Q.F 1 1 1 0 
+y_Q.G 1 0 1 0 
+y_Q.H 1 0 0 0 
+y_Q.I 1 0 0 1 

@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Kamil/Dropbox/sw/PS1/zad14/PS1_ZAD14.v
+source_file = 1, C:/Users/Kamil/Dropbox/sw/PS1/zad14/db/PS1_ZAD14.cbx.xml
+design_name = PS1_ZAD14
+instance = comp, \s~output , s~output, PS1_ZAD14, 1
+instance = comp, \cout~output , cout~output, PS1_ZAD14, 1
+instance = comp, \cin~input , cin~input, PS1_ZAD14, 1
+instance = comp, \b~input , b~input, PS1_ZAD14, 1
+instance = comp, \a~input , a~input, PS1_ZAD14, 1
+instance = comp, \Add1~0 , Add1~0, PS1_ZAD14, 1
+instance = comp, \Add1~1 , Add1~1, PS1_ZAD14, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, PS1_ZAD14, 1

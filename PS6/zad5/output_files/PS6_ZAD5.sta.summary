@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -4.462
+TNS   : -90.563
+
+Type  : Slow 1100mV 85C Model Setup 'delay_08_sec:des|counter_mod_M:ex1|Q[0]'
+Slack : -0.382
+TNS   : -0.761
+
+Type  : Slow 1100mV 85C Model Hold 'delay_08_sec:des|counter_mod_M:ex1|Q[0]'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.383
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.394
+TNS   : -21.029
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'delay_08_sec:des|counter_mod_M:ex1|Q[0]'
+Slack : -0.394
+TNS   : -1.026
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -4.536
+TNS   : -90.198
+
+Type  : Slow 1100mV 0C Model Setup 'delay_08_sec:des|counter_mod_M:ex1|Q[0]'
+Slack : -0.359
+TNS   : -0.713
+
+Type  : Slow 1100mV 0C Model Hold 'delay_08_sec:des|counter_mod_M:ex1|Q[0]'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.382
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.399
+TNS   : -22.689
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'delay_08_sec:des|counter_mod_M:ex1|Q[0]'
+Slack : -0.394
+TNS   : -1.050
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -2.614
+TNS   : -37.790
+
+Type  : Fast 1100mV 85C Model Setup 'delay_08_sec:des|counter_mod_M:ex1|Q[0]'
+Slack : 0.003
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'delay_08_sec:des|counter_mod_M:ex1|Q[0]'
+Slack : 0.162
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.203
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.395
+TNS   : -3.875
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'delay_08_sec:des|counter_mod_M:ex1|Q[0]'
+Slack : 0.125
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -2.361
+TNS   : -31.114
+
+Type  : Fast 1100mV 0C Model Setup 'delay_08_sec:des|counter_mod_M:ex1|Q[0]'
+Slack : 0.044
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'delay_08_sec:des|counter_mod_M:ex1|Q[0]'
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.402
+TNS   : -3.823
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'delay_08_sec:des|counter_mod_M:ex1|Q[0]'
+Slack : 0.126
+TNS   : 0.000
+
+------------------------------------------------------------

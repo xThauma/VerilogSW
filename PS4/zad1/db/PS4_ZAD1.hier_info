@@ -1,0 +1,8 @@
+|PS4_ZAD1
+SW[0] => S_g.IN0
+SW[1] => R_g.IN0
+SW[2] => R_g.IN1
+SW[2] => S_g.IN1
+LEDR[0] <= LEDR[0].DB_MAX_OUTPUT_PORT_TYPE
+
+

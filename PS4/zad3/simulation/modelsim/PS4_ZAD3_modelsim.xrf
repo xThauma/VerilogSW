@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Kamil/Dropbox/sw/PS4/zad3/PS4_ZAD3.v
+source_file = 1, C:/Users/Kamil/Dropbox/sw/PS4/zad3/db/PS4_ZAD3.cbx.xml
+design_name = PS4_ZAD3
+instance = comp, \LEDR[0]~output , LEDR[0]~output, PS4_ZAD3, 1
+instance = comp, \SW[0]~input , SW[0]~input, PS4_ZAD3, 1
+instance = comp, \firstLatchInput[0] , firstLatchInput[0], PS4_ZAD3, 1
+instance = comp, \SW[1]~input , SW[1]~input, PS4_ZAD3, 1
+instance = comp, \firstLatchInput[1] , firstLatchInput[1], PS4_ZAD3, 1
+instance = comp, \latchOne|Qa~0 , latchOne|Qa~0, PS4_ZAD3, 1
+instance = comp, \secondLatchInput[0] , secondLatchInput[0], PS4_ZAD3, 1
+instance = comp, \secondLatchInput[1] , secondLatchInput[1], PS4_ZAD3, 1
+instance = comp, \latchTwo|Qa~0 , latchTwo|Qa~0, PS4_ZAD3, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, PS4_ZAD3, 1

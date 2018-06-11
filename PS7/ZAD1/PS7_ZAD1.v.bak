@@ -1,0 +1,37 @@
+module register_N_bits
+	#(N=8)
+	(input [N-1:0] D,
+	input clk,
+	output reg [N-1:0] Q);
+	
+	always @(posedge clk)
+		Q <= D;
+endmodule
+
+module FFD_posedge(
+	input D,clk,
+	output reg Q);
+	
+	always @(posedge clk)
+		Q <= D;
+endmodule
+
+module PS7_ZAD1		
+	#(N=8)
+	(input [N-1:0] A,
+	input clk,
+	output [N-1:0] S,
+	output overflow, carry);
+	
+	(* keep *) wire [N-1:0] B,C;
+	(* keep *) wire cout,over;
+	
+	register_N_bits #(8) ex_A(A,clk,B);
+	
+	adder_N_bits #(8) ex_add(B,S,1'b0,C,cout);
+	
+	register_N_bits #(8) ex_S(C,clk,S);
+	FFD_posedge ex_cout(cout,clk,carry);
+	assign over = cout ^ C[N-1];
+	FFD_posedge ex_over(over,clk,overflow);
+endmodule

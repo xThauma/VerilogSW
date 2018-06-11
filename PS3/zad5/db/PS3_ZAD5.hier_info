@@ -1,0 +1,106 @@
+|PS3_ZAD5
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+SW[8] => Add1.IN10
+HEX0[6] <= displayNumberV2:comb_393.port1
+HEX0[5] <= displayNumberV2:comb_393.port1
+HEX0[4] <= displayNumberV2:comb_393.port1
+HEX0[3] <= displayNumberV2:comb_393.port1
+HEX0[2] <= displayNumberV2:comb_393.port1
+HEX0[1] <= displayNumberV2:comb_393.port1
+HEX0[0] <= displayNumberV2:comb_393.port1
+HEX1[6] <= displayNumberV2:comb_394.port1
+HEX1[5] <= displayNumberV2:comb_394.port1
+HEX1[4] <= displayNumberV2:comb_394.port1
+HEX1[3] <= displayNumberV2:comb_394.port1
+HEX1[2] <= displayNumberV2:comb_394.port1
+HEX1[1] <= displayNumberV2:comb_394.port1
+HEX1[0] <= displayNumberV2:comb_394.port1
+HEX3[6] <= displayNumber:comb_391.port1
+HEX3[5] <= displayNumber:comb_391.port1
+HEX3[4] <= displayNumber:comb_391.port1
+HEX3[3] <= displayNumber:comb_391.port1
+HEX3[2] <= displayNumber:comb_391.port1
+HEX3[1] <= displayNumber:comb_391.port1
+HEX3[0] <= displayNumber:comb_391.port1
+HEX5[6] <= displayNumber:comb_392.port1
+HEX5[5] <= displayNumber:comb_392.port1
+HEX5[4] <= displayNumber:comb_392.port1
+HEX5[3] <= displayNumber:comb_392.port1
+HEX5[2] <= displayNumber:comb_392.port1
+HEX5[1] <= displayNumber:comb_392.port1
+HEX5[0] <= displayNumber:comb_392.port1
+LEDR[0] <= SW[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= SW[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] <= SW[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[4] <= SW[4].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[5] <= SW[5].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[6] <= SW[6].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[7] <= SW[7].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[8] <= <GND>
+LEDR[9] <= <GND>
+
+
+|PS3_ZAD5|displayNumber:comb_391
+decimalNumber[0] => Decoder0.IN3
+decimalNumber[1] => Decoder0.IN2
+decimalNumber[2] => Decoder0.IN1
+decimalNumber[3] => Decoder0.IN0
+displayer[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+displayer[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+displayer[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+displayer[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+displayer[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+displayer[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+displayer[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS3_ZAD5|displayNumber:comb_392
+decimalNumber[0] => Decoder0.IN3
+decimalNumber[1] => Decoder0.IN2
+decimalNumber[2] => Decoder0.IN1
+decimalNumber[3] => Decoder0.IN0
+displayer[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+displayer[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+displayer[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+displayer[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+displayer[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+displayer[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+displayer[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS3_ZAD5|displayNumberV2:comb_393
+decimalNumber[0] => Decoder0.IN3
+decimalNumber[1] => Decoder0.IN2
+decimalNumber[2] => Decoder0.IN1
+decimalNumber[3] => Decoder0.IN0
+displayer[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+displayer[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+displayer[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+displayer[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+displayer[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+displayer[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+displayer[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PS3_ZAD5|displayNumberV2:comb_394
+decimalNumber[0] => Decoder0.IN3
+decimalNumber[1] => Decoder0.IN2
+decimalNumber[2] => Decoder0.IN1
+decimalNumber[3] => Decoder0.IN0
+displayer[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+displayer[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+displayer[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+displayer[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+displayer[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+displayer[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+displayer[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
